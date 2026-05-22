@@ -6,6 +6,16 @@ An enterprise workflow automation system that uses multi-agent AI orchestration 
 
 Employees submit purchase requests. The system automatically analyzes, validates, and routes them through the appropriate approval chain.
 
+<p align="center">
+    <img width="650" height="540" alt="image" src="https://github.com/user-attachments/assets/95c7bfca-b2b6-45e6-96aa-6463bbcce374" />
+    <img width="800" height="40" alt="image" src="https://github.com/user-attachments/assets/33e3aca2-c6d2-403d-a697-82a9683bdc40" />
+    <img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/04e2eb7b-0b4b-4732-b541-bbebe19d5ee1" />
+
+</p>
+
+
+
+
 ## Architecture
 
 ```

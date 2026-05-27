@@ -232,6 +232,21 @@ MultiAgent_ProcureFlow/
 - Lưu lịch sử mua sắm để phát hiện request trùng lặp
 
 ## Cài đặt
+### Cách 1: Docker
+
+1. Tạo file `.env`:
+```
+API_KEY=your_openrouter_api_key
+```
+
+2. Run:
+```
+docker compose up
+```
+
+Truy cập và sử dụng tại `http://localhost:8501`
+
+### Cách 2: Local
 
 1. Tạo virtual environment và cài dependencies:
 ```

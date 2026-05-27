@@ -93,27 +93,49 @@ multiagent_buying/
 
 ## Setup
 
-1. Clone the repository
-2. Create and activate a virtual environment
-3. Install dependencies:
-```
-pip install -r requirements.txt
-```
+### Option 1: Docker (recommended)
 
-4. Create `.env` file:
+1. Create `.env` file:
 ```
 API_KEY=your_openrouter_api_key
 ```
 
-5. Run the API server:
+2. Run:
+```
+docker compose up
+```
+
+Access the app at `http://localhost:8501`
+
+### Option 2: Local
+
+1. Create and activate a virtual environment
+2. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+3. Create `.env` file:
+```
+API_KEY=your_openrouter_api_key
+```
+
+4. Run the API server:
 ```
 uvicorn api:app --reload
 ```
 
-6. Run the Streamlit UI (new terminal):
+5. Run the Streamlit UI (new terminal):
 ```
 streamlit run streamlit_app.py
 ```
+
+## Docker Images
+
+Pre-built images are available on Docker Hub:
+
+- [`bhdang311003/procureflow-api`](https://hub.docker.com/r/bhdang311003/procureflow-api)
+- [`bhdang311003/procureflow-streamlit`](https://hub.docker.com/r/bhdang311003/procureflow-streamlit)
 
 ## API Endpoints
 
